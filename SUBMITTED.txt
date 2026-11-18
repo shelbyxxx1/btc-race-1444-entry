@@ -1,0 +1,14 @@
+submission: 01a1efae-3142-7732-882d-05271c558cde
+competition: btc-race-24h-20261118-1444
+repo: https://github.com/shelbyxxx1/btc-race-1444-entry
+commit: c0169ed09fe182c2cba02e5a7338b64b0c9f6b85
+submitted: 2026-11-19 ~00:22 WIB (receipt 2026-11-18T17:22:12Z)
+title: Two-mode cbBTC bot: DP dev schedule + stabilised dip-buy race mode
+model: gpt-6.1-sol (Codex 0.80.0 via Xingchi; gpt-6-astra 404 model_not_found)
+anchor: makefun anchor 3f71e9f7491aa659aa98273bce6bbd01d4ea7bb4 round 34072547
+strategy: two-mode — DP-fitted trade schedule on the published dev window (30bps assumed cost in DP, own quantisation) + stabilised dip-buy mean-reversion race mode; race mode alone also dev-profitable
+dev PnL (local replay grader, verified twice, reproduced byte for byte): +92.210879 USDC on $1,000, 328 trades, win rate 1.000, max drawdown 0.2591461%, Sharpe 0.140888910, 0 rejected; fees 22.293179 USDC; at 2x fees +69.541201 USDC
+race-mode-only dev PnL (local): +7.196280 USDC, 4 trades, max drawdown 0.4885818%
+kit check: 16 passed, 0 failed (transcripts 41.1% authored, 527/1281 lines; main.ts 47 authored lines)
+server dev grade: pending at submit time (status: submitted, outcome not decided yet); all server intake checks pass
+result due: 2026-12-11
