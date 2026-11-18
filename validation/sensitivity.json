@@ -1,0 +1,163 @@
+[
+  {
+    "parameter": "base",
+    "factor": 1,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "lookback",
+    "factor": 0.8,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "lookback",
+    "factor": 1.2,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "dip",
+    "factor": 0.8,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "dip",
+    "factor": 1.2,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "bounce",
+    "factor": 0.8,
+    "pnl": 7.029733,
+    "trades": 4,
+    "dd": 0.005050526295285129
+  },
+  {
+    "parameter": "bounce",
+    "factor": 1.2,
+    "pnl": 5.659888,
+    "trades": 2,
+    "dd": 0.001953863999999972
+  },
+  {
+    "parameter": "reboundBars",
+    "factor": 0.8,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "reboundBars",
+    "factor": 1.2,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "takeProfit",
+    "factor": 0.8,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "takeProfit",
+    "factor": 1.2,
+    "pnl": 6.920411,
+    "trades": 4,
+    "dd": 0.006364291705174496
+  },
+  {
+    "parameter": "trailArm",
+    "factor": 0.8,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "trailArm",
+    "factor": 1.2,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "trail",
+    "factor": 0.8,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "trail",
+    "factor": 1.2,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "stop",
+    "factor": 0.8,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "stop",
+    "factor": 1.2,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "hold",
+    "factor": 0.8,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "hold",
+    "factor": 1.2,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "cooldown",
+    "factor": 0.8,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "cooldown",
+    "factor": 1.2,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "meanFloor",
+    "factor": 0.8,
+    "pnl": 7.19628,
+    "trades": 4,
+    "dd": 0.004885818240587869
+  },
+  {
+    "parameter": "meanFloor",
+    "factor": 1.2,
+    "pnl": 7.472789,
+    "trades": 4,
+    "dd": 0.006258498641770749
+  }
+]

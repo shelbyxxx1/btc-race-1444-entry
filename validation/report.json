@@ -1,0 +1,382 @@
+{
+  "anchor": "makefun anchor 3f71e9f7491aa659aa98273bce6bbd01d4ea7bb4 round 34072547",
+  "dev": {
+    "status": "finished",
+    "driver": "process",
+    "harness": {
+      "kind": "bars-replay/v1",
+      "version": "harness@6cd2f7103e5cc31f28573f71a7e208d605616f58b034ff6d32bbc81b30d8d945 node v22.23.5"
+    },
+    "action_log_sha256": "0c92a2626ae5359503b69e718e2b20a781933c5738e205913388d67fde1bc78d",
+    "metrics": {
+      "net_pnl_quote_units": "92210879",
+      "return": "0.092210879",
+      "sharpe": "0.140888910",
+      "sortino": "0.408779614",
+      "max_drawdown": "0.002591461",
+      "win_rate": "1.000000000",
+      "trades": 328,
+      "rejected": 0,
+      "distinct_symbols": 1,
+      "fees_quote_units": "22293179",
+      "exposure": "0.373339920",
+      "per_symbol": [
+        {
+          "symbol": "CBBTC",
+          "pnl_quote_units": "92210879",
+          "trades": 328,
+          "fees_quote_units": "22293179"
+        }
+      ],
+      "interval": {
+        "level": "0.900000000",
+        "method": "bootstrap-symbols",
+        "resamples": 1000,
+        "seed": "15327390277217626507",
+        "low_quote_units": "92210879",
+        "high_quote_units": "92210879"
+      },
+      "block_hours": 1,
+      "per_block": [
+        {
+          "block": 0,
+          "pnl_quote_units": "6388611"
+        },
+        {
+          "block": 1,
+          "pnl_quote_units": "13759484"
+        },
+        {
+          "block": 2,
+          "pnl_quote_units": "7842200"
+        },
+        {
+          "block": 3,
+          "pnl_quote_units": "5571360"
+        },
+        {
+          "block": 4,
+          "pnl_quote_units": "1751711"
+        },
+        {
+          "block": 5,
+          "pnl_quote_units": "4230245"
+        },
+        {
+          "block": 6,
+          "pnl_quote_units": "10082555"
+        },
+        {
+          "block": 7,
+          "pnl_quote_units": "8678410"
+        },
+        {
+          "block": 8,
+          "pnl_quote_units": "5992223"
+        },
+        {
+          "block": 9,
+          "pnl_quote_units": "167314"
+        },
+        {
+          "block": 10,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 11,
+          "pnl_quote_units": "5395361"
+        },
+        {
+          "block": 12,
+          "pnl_quote_units": "4076519"
+        },
+        {
+          "block": 13,
+          "pnl_quote_units": "1194980"
+        },
+        {
+          "block": 14,
+          "pnl_quote_units": "5255873"
+        },
+        {
+          "block": 15,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 16,
+          "pnl_quote_units": "1102718"
+        },
+        {
+          "block": 17,
+          "pnl_quote_units": "6434771"
+        },
+        {
+          "block": 18,
+          "pnl_quote_units": "241690"
+        },
+        {
+          "block": 19,
+          "pnl_quote_units": "799117"
+        },
+        {
+          "block": 20,
+          "pnl_quote_units": "202859"
+        },
+        {
+          "block": 21,
+          "pnl_quote_units": "1171688"
+        },
+        {
+          "block": 22,
+          "pnl_quote_units": "1214777"
+        },
+        {
+          "block": 23,
+          "pnl_quote_units": "656413"
+        }
+      ],
+      "cost_sensitivity": {
+        "fee_multiplier": 2,
+        "net_pnl_quote_units": "69541201"
+      },
+      "constraints": {
+        "min_trades": 1,
+        "min_distinct_symbols": 0,
+        "max_drawdown": "0.250000000",
+        "trades_ok": true,
+        "symbols_ok": true,
+        "drawdown_ok": true,
+        "compliant": true
+      },
+      "contamination": {
+        "no_future_bars": true,
+        "final_window_first_bar_time": null,
+        "last_graded_receipt_at": null,
+        "window_after_receipts": null,
+        "dataset_sha256": "d81f50d5f663994f1b3088c7627f1a9c830ae419e0b21ec215f4884ca7fab30f"
+      }
+    },
+    "l1": {
+      "reproduced": true,
+      "error": null
+    },
+    "mismatches": [
+      "node: the server's harness runs v26.13.1, this one v22.23.5"
+    ],
+    "notes": [
+      "process driver: the bot ran on this machine unisolated and the score records no image digest; a server grading in its docker sandbox records one, so only a server on the process driver (a dev server) records this result_sha256"
+    ]
+  },
+  "raceOnly": {
+    "status": "finished",
+    "driver": "process",
+    "harness": {
+      "kind": "bars-replay/v1",
+      "version": "harness@6cd2f7103e5cc31f28573f71a7e208d605616f58b034ff6d32bbc81b30d8d945 node v22.23.5"
+    },
+    "action_log_sha256": "2189f508b01e257c93687155f0e02a8e2655ea9fa77a91c06bcf3607f2b15106",
+    "metrics": {
+      "net_pnl_quote_units": "7196280",
+      "return": "0.007196280",
+      "sharpe": "0.019871901",
+      "sortino": "0.040084419",
+      "max_drawdown": "0.004885818",
+      "win_rate": "1.000000000",
+      "trades": 4,
+      "rejected": 0,
+      "distinct_symbols": 1,
+      "fees_quote_units": "1543536",
+      "exposure": "0.018667392",
+      "per_symbol": [
+        {
+          "symbol": "CBBTC",
+          "pnl_quote_units": "7196280",
+          "trades": 4,
+          "fees_quote_units": "1543536"
+        }
+      ],
+      "interval": {
+        "level": "0.900000000",
+        "method": "bootstrap-symbols",
+        "resamples": 1000,
+        "seed": "15327390277217626507",
+        "low_quote_units": "7196280",
+        "high_quote_units": "7196280"
+      },
+      "block_hours": 1,
+      "per_block": [
+        {
+          "block": 0,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 1,
+          "pnl_quote_units": "5659888"
+        },
+        {
+          "block": 2,
+          "pnl_quote_units": "1536392"
+        },
+        {
+          "block": 3,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 4,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 5,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 6,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 7,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 8,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 9,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 10,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 11,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 12,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 13,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 14,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 15,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 16,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 17,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 18,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 19,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 20,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 21,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 22,
+          "pnl_quote_units": "0"
+        },
+        {
+          "block": 23,
+          "pnl_quote_units": "0"
+        }
+      ],
+      "cost_sensitivity": {
+        "fee_multiplier": 2,
+        "net_pnl_quote_units": "5651338"
+      },
+      "constraints": {
+        "min_trades": 1,
+        "min_distinct_symbols": 0,
+        "max_drawdown": "0.250000000",
+        "trades_ok": true,
+        "symbols_ok": true,
+        "drawdown_ok": true,
+        "compliant": true
+      },
+      "contamination": {
+        "no_future_bars": true,
+        "final_window_first_bar_time": null,
+        "last_graded_receipt_at": null,
+        "window_after_receipts": null,
+        "dataset_sha256": "d81f50d5f663994f1b3088c7627f1a9c830ae419e0b21ec215f4884ca7fab30f"
+      }
+    },
+    "l1": {
+      "reproduced": true,
+      "error": null
+    },
+    "mismatches": [
+      "node: the server's harness runs v26.13.1, this one v22.23.5"
+    ],
+    "notes": [
+      "process driver: the bot ran on this machine unisolated and the score records no image digest; a server grading in its docker sandbox records one, so only a server on the process driver (a dev server) records this result_sha256"
+    ]
+  },
+  "deterministic": true,
+  "devLogSecondRun": "0c92a2626ae5359503b69e718e2b20a781933c5738e205913388d67fde1bc78d",
+  "sensitivityWorstPnl": 5.659888,
+  "protocol": [
+    {
+      "label": "protocol-dev-a",
+      "pnl": 92.210879,
+      "trades": 328,
+      "dd": 0.002591461860608324,
+      "sha256": "f509b790bcc3937497ebba9fbce909311e5eae736a2b4f37bc51c320955dfda7"
+    },
+    {
+      "label": "protocol-dev-b",
+      "pnl": 92.210879,
+      "trades": 328,
+      "dd": 0.002591461860608324,
+      "sha256": "f509b790bcc3937497ebba9fbce909311e5eae736a2b4f37bc51c320955dfda7"
+    },
+    {
+      "label": "protocol-race-a",
+      "pnl": 7.19628,
+      "trades": 4,
+      "dd": 0.004885818240587869,
+      "sha256": "cb49528fdf19be9c02babe0caf5b4818fd0cc62b3a8c0e9cf741be1e49671b26"
+    },
+    {
+      "label": "protocol-race-b",
+      "pnl": 7.19628,
+      "trades": 4,
+      "dd": 0.004885818240587869,
+      "sha256": "cb49528fdf19be9c02babe0caf5b4818fd0cc62b3a8c0e9cf741be1e49671b26"
+    },
+    {
+      "label": "protocol-flat",
+      "pnl": -0.001808,
+      "trades": 2,
+      "dd": 0.0000018080000000475493,
+      "sha256": "8d3f4b91448919ae86e00091df5b42e35ebd78b4702b6f26f55333f4234ffef7"
+    }
+  ],
+  "limitations": [
+    "Docker unavailable; process driver is advisory and unisolated.",
+    "Submission eligibility requires orchestrator transcript bundle and server checks.",
+    "Sensitivity uses the same published dev window; it is not out-of-sample evidence."
+  ]
+}
